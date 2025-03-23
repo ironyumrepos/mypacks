@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "https://tenor.com/en-GB/view/cat-jump-happy-jumping-for-joy-jumping-gif-23625303" # Link to the webpage to redirect to 
+        "page": "https://media1.tenor.com/m/StMcxdC56MMAAAAC/cat.gif" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
